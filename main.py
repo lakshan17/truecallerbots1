@@ -1,8 +1,9 @@
 import os
 import json
 import requests
-from config import Config *
 from pyrogram import Client, filters
+from config import Config *
+
 
 url = "https://api4.truecaller.com/v1/search"
 
